@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wg.myviews.MainActivity" >
+
+    <Button
+        android:id="@+id/jni_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show" />
+    <TextView 
+        android:layout_toRightOf="@id/jni_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:text="显示从C返回的字符串"
+        />
+    <Button
+        android:id="@+id/jni_add_btn"
+        android:layout_below="@id/jni_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="两个数相加" />
+    <Button
+        android:id="@+id/jni_add_str_btn"
+        android:layout_below="@id/jni_add_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="字符串拼接" />
+    <Button
+        android:id="@+id/jni_change_arr_btn"
+        android:layout_below="@id/jni_add_str_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改数组中的值" />
+
+</RelativeLayout>

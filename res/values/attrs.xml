@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="myToggleBtn">
+        
+        <attr name="endable" format="boolean"/>
+        
+    </declare-styleable>
+
+</resources>

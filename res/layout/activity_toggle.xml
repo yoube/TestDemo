@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tag="http://schemas.android.com/apk/res/com.wg.myviews"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.wg.myviews.view.ScrollButton
+        android:id="@+id/my_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_scroll"
+        >
+    </android.support.v4.view.ViewPager>
+    
+    <!-- <com.wg.myviews.view.ToggleButton
+        android:id="@+id/my_toggleBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        tag:endable="true" />
+
+    <com.wg.myviews.view.ToggleButton
+        android:id="@+id/my_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_toggleBtn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        tag:endable="false" /> -->
+
+
+</RelativeLayout>
