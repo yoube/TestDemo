@@ -16,6 +16,7 @@ import android.widget.TextView;
 
 import com.wg.myviews.CirImageActivity;
 import com.wg.myviews.JniActivity;
+import com.wg.myviews.MapActivity;
 import com.wg.myviews.ScrollViewActivity;
 import com.wg.myviews.ToggleButActivity;
 import com.wg.myviews.TouchActivity;
@@ -52,6 +53,10 @@ public class MainActivity extends BaseListActivity {
 		map = new HashMap<String,Object>();
 		map.put("name", "jni");
 		map.put("class", JniActivity.class);
+		list.add(map);
+		map = new HashMap<String,Object>();
+		map.put("name", "°Ù¶ÈµØÍ¼");
+		map.put("class", MapActivity.class);
 		list.add(map);
 	}
 
