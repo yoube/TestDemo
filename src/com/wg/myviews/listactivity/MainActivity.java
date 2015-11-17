@@ -1,25 +1,17 @@
 package com.wg.myviews.listactivity;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import android.content.Intent;
-import android.graphics.Color;
-import android.os.Bundle;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.BaseAdapter;
-import android.widget.ListView;
-import android.widget.TextView;
-
 import com.wg.myviews.CirImageActivity;
 import com.wg.myviews.JniActivity;
 import com.wg.myviews.MapActivity;
+import com.wg.myviews.MediaRecorderActivity;
 import com.wg.myviews.ScrollViewActivity;
 import com.wg.myviews.ToggleButActivity;
 import com.wg.myviews.TouchActivity;
+import com.wg.myviews.VideoActivity;
 
 public class MainActivity extends BaseListActivity {
 	
@@ -57,6 +49,14 @@ public class MainActivity extends BaseListActivity {
 		map = new HashMap<String,Object>();
 		map.put("name", "°Ù¶ÈµØÍ¼");
 		map.put("class", MapActivity.class);
+		list.add(map);
+		map = new HashMap<String,Object>();
+		map.put("name", "Video");
+		map.put("class", VideoActivity.class);
+		list.add(map);
+		map = new HashMap<String,Object>();
+		map.put("name", "Â¼Òô");
+		map.put("class", MediaRecorderActivity.class);
 		list.add(map);
 	}
 
