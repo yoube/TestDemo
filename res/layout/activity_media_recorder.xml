@@ -21,6 +21,6 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp" 
-        android:text="点击 录音"     />
+        android:text="点击 录音"/>
 
 </LinearLayout>

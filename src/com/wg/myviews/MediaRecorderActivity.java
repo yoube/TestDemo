@@ -1,5 +1,6 @@
 package com.wg.myviews;
 
+import com.wg.myviews.utils.MediaRecorderManager;
 import com.wg.myviews.view.AudioButton;
 
 import android.app.Activity;

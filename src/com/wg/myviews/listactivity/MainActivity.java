@@ -8,6 +8,7 @@ import com.wg.myviews.CirImageActivity;
 import com.wg.myviews.JniActivity;
 import com.wg.myviews.MapActivity;
 import com.wg.myviews.MediaRecorderActivity;
+import com.wg.myviews.MediaRecorderVideoActivity;
 import com.wg.myviews.ScrollViewActivity;
 import com.wg.myviews.ToggleButActivity;
 import com.wg.myviews.TouchActivity;
@@ -57,6 +58,14 @@ public class MainActivity extends BaseListActivity {
 		map = new HashMap<String,Object>();
 		map.put("name", "Â¼Òô");
 		map.put("class", MediaRecorderActivity.class);
+		list.add(map);
+		map = new HashMap<String,Object>();
+		map.put("name", "Â¼Òô");
+		map.put("class", MediaRecorderActivity.class);
+		list.add(map);
+		map = new HashMap<String,Object>();
+		map.put("name", "ÊÓÆµÂ¼ÖÆ");
+		map.put("class", MediaRecorderVideoActivity.class);
 		list.add(map);
 	}
 
