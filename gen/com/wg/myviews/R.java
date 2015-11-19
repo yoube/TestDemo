@@ -54,7 +54,9 @@ containing a value of this type.
     }
     public static final class id {
         public static final int action_btn=0x7f08000e;
-        public static final int action_settings=0x7f080013;
+        public static final int action_btn1=0x7f080010;
+        public static final int action_btn2=0x7f080011;
+        public static final int action_settings=0x7f080015;
         public static final int action_start=0x7f08000b;
         public static final int action_stop=0x7f08000c;
         public static final int bmapView=0x7f08000a;
@@ -65,11 +67,11 @@ containing a value of this type.
         public static final int jni_btn=0x7f080006;
         public static final int jni_change_arr_btn=0x7f080009;
         public static final int list=0x7f08000d;
-        public static final int my_scroll=0x7f080011;
-        public static final int my_scroll_view=0x7f080010;
+        public static final int my_scroll=0x7f080013;
+        public static final int my_scroll_view=0x7f080012;
         public static final int my_toggleBtn=0x7f080000;
         public static final int surface_view=0x7f08000f;
-        public static final int view_page=0x7f080012;
+        public static final int view_page=0x7f080014;
         public static final int youku_meun_level1=0x7f080003;
         public static final int youku_meun_level2=0x7f080004;
         public static final int youku_meun_level3=0x7f080005;

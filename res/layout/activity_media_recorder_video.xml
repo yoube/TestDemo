@@ -4,28 +4,41 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <com.wg.myviews.MediaRecorderVideoActivity.Preview
-        android:id="@+id/surface_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
-<!--     <SurfaceView
+    <com.wg.myviews.view.CameraPreview
         android:id="@+id/surface_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1" /> -->
+        android:layout_weight="1" >
+    </com.wg.myviews.view.CameraPreview>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="#e1e1e1" />
 
-    <Button
-        android:id="@+id/action_btn"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp" 
-        android:text="点击 录制"/>
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/action_btn1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="点击 录制" 
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/action_btn2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="切换摄像头" 
+            android:layout_weight="1"
+            />
+        
+    </LinearLayout>
 
 </LinearLayout>
