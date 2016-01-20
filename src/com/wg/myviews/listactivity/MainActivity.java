@@ -4,11 +4,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.wg.myviews.BaduPushActivity;
 import com.wg.myviews.CirImageActivity;
 import com.wg.myviews.JniActivity;
 import com.wg.myviews.MapActivity;
 import com.wg.myviews.MediaRecorderActivity;
 import com.wg.myviews.MediaRecorderVideoActivity2;
+import com.wg.myviews.MyViewActivity;
 import com.wg.myviews.ScrollViewActivity;
 import com.wg.myviews.ToggleButActivity;
 import com.wg.myviews.TouchActivity;
@@ -66,6 +68,14 @@ public class MainActivity extends BaseListActivity {
 		map = new HashMap<String,Object>();
 		map.put("name", "视频录制");
 		map.put("class", MediaRecorderVideoActivity2.class);
+		list.add(map);
+		map = new HashMap<String,Object>();
+		map.put("name", "百度推送");
+		map.put("class", BaduPushActivity.class);
+		list.add(map);
+		map = new HashMap<String,Object>();
+		map.put("name", "MyView");
+		map.put("class", MyViewActivity.class);
 		list.add(map);
 	}
 

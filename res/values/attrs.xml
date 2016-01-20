@@ -4,7 +4,10 @@
     <declare-styleable name="myToggleBtn">
         
         <attr name="endable" format="boolean"/>
-        
+    </declare-styleable>
+    <declare-styleable name="circleProgressBar">
+        <attr name="textSize" format="dimension"/>
+        <attr name="progressWidth" format="dimension"/>
     </declare-styleable>
 
 </resources>

@@ -34,12 +34,12 @@ public class MediaRecorderActivity extends Activity{
 				MediaRecorderManager.getInstall().play(path);
 			}
 		});
-		adapter.add("/storage/emulated/0/KuwoMusic/music/Ô¸µÃÒ»ÈËÐÄ-ÀîÐÐÁÁ.aac");
+		adapter.add("/storage/emulated/0/KuwoMusic/music/Ô¸ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½-ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.aac");
 		list.setAdapter(adapter);
 		action = (AudioButton) findViewById(R.id.action_btn);
-		
+
 		action.setOnTouchListener(new OnTouchListener() {
-			
+
 			@Override
 			public boolean onTouch(View v, MotionEvent event) {
 				switch (event.getAction()) {
@@ -47,10 +47,11 @@ public class MediaRecorderActivity extends Activity{
 					MediaRecorderManager.getInstall().start();
 					break;
 				case MotionEvent.ACTION_MOVE:
-					
+				
 					break;
 				case MotionEvent.ACTION_UP:
 					String path = MediaRecorderManager.getInstall().stop();
+
 					adapter.add(path);
 					break;
 
